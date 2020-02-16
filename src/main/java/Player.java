@@ -12,8 +12,8 @@ public class Player {
         this.hand.add(card);
     }
 
-    public RankType getCardRank() {
+    public RankType getCarValue() {
         Card card = this.hand.get(0);
-        return card.getRank();
+        return card.getValue();
     }
 }

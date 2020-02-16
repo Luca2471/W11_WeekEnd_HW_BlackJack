@@ -16,7 +16,7 @@ public enum RankType {
     private final int  cardValue;
 
     RankType(int cardValue) {
-        this.cardValue;
+        this.cardValue = cardValue;
     }
 
     public int getCardValue() {
